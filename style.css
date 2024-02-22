@@ -1,0 +1,61 @@
+body {
+  color: #333;
+  font-family: "Inria sans";
+  background-color: rgb(254, 254, 234);
+  text-align: center;
+  list-style: none;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 10px auto 100px;
+  background-color: #fcf1fb;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+}
+h1 {
+  text-decoration: underline;
+  padding-bottom: 2%;
+}
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+.container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Done liste */
+.done {
+  text-decoration: line-through;
+}
+
+/* Knapper  */
+
+.deleteButton {
+  width: 2rem;
+  border-radius: 8px;
+  background-color: rgb(247, 109, 109);
+  border-style: none;
+  align-self: end;
+}
+
+.deleteButton:hover {
+  background-color: rgb(254, 198, 198);
+}
+
+.addTaskBtn {
+  font-family: "Inria sans";
+  border: 10px;
+  border-radius: 4px;
+  padding: 1%;
+  background-color: rgb(231, 163, 213);
+}
+
+.addTaskBtn:hover {
+  background-color: rgb(249, 222, 242);
+}
